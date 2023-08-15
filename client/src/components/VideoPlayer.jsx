@@ -119,7 +119,7 @@ const VideoPlayer = () => {
         response ? response.map((data, key) => (
           <MainBox key={data._id}>
               <InputBox onClick={() => handleClick(data)}>
-                  <Thumbnail component='img' src={`/${data.thumbnail}`} />
+                  <Thumbnail component='img' src={`https://video-player-backend.onrender.com/${data.thumbnail}`} />
                   <Typography>Subtitle: {data.subtitle}</Typography>
               </InputBox>
         </MainBox>
