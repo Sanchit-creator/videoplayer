@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const URL = 'http://localhost:3000'
+const URL = 'https://video-player-backend.onrender.com'
 
 export const signUpAdmin = async(data) => {
     try {

@@ -165,14 +165,14 @@ const UserInfo = () => {
                         required
                         id="outlined-disabled"
                         label="Adhaar Photo One"
-                        src={`http://localhost:3000/${interviewData.adhaarphotoone}`}
+                        src={`https://video-player-backend.onrender.com/${interviewData.adhaarphotoone}`}
                     />
                     <Img
                         component="img"
                         required
                         id="outlined-disabled"
                         label="Adhaar Photo Two"
-                        src={`http://localhost:3000/${interviewData.adhaarphototwo}`}
+                        src={`https://video-player-backend.onrender.com/${interviewData.adhaarphototwo}`}
                     />
                 </Grid>
             </>
@@ -188,7 +188,7 @@ const UserInfo = () => {
                     component="img"
                     id="outlined-disabled"
                     label="Adhaar Photo One"
-                    src={`http://localhost:3000/${interviewData.document}`}
+                    src={`https://video-player-backend.onrender.com/${interviewData.document}`}
                 />
             </>
         }

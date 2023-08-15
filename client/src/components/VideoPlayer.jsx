@@ -107,7 +107,7 @@ const VideoPlayer = () => {
     <MainContainer>
         <Main>
         <Video controls>
-            <source src={`http://localhost:3000/${interviewData.path}`} type="video/mp4" />
+            <source src={`https://video-player-backend.onrender.com/${interviewData.path}`} type="video/mp4" />
             Your browser does not support the video tag.
         </Video>
         <TextBox>
@@ -119,7 +119,7 @@ const VideoPlayer = () => {
         response ? response.map((data, key) => (
           <MainBox key={data._id}>
               <InputBox onClick={() => handleClick(data)}>
-                  <Thumbnail component='img' src={`http://localhost:3000/${data.thumbnail}`} />
+                  <Thumbnail component='img' src={`/${data.thumbnail}`} />
                   <Typography>Subtitle: {data.subtitle}</Typography>
               </InputBox>
         </MainBox>
